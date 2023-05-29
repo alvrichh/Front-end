@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>  
+    
+    <meta name="Author" content="Álvaro Rodríguez Molina" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----------CSS------------>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel=" stylesheet " href="css/style.css">
+
+    <!----------CSS------------>
+
+    <!----------AVANZADO------------>
+
+    <!----------JS------------>
+
+    <script src="js/register.js" type="module"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/utils/include.js"> </script>
+    <script src="js/libs/axios.min.js"></script>
+
+    <!----------JS------------>
+
+    <title>Register on MonsterBroker</title>
+</head>
+
+<body class="dark">
+    <img src="_crypto/HEADER.png">
+<button class="atras" type="submit">
+    <a href="MonsterBroker.html"><img src="_crypto/ATRAS.png" alt=""></a>
+</button>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md">
+                <div id="page-header"> </div>
+                <h3>Register</h3>
+                <div id="errors"></div>
+            </div>
+        </div>
+        <form id="register-form">
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="firstname-input">First name:</label>
+                        <input type="text" class="form-control text-light bg-dark" id="firstname-input" name="firstName"
+                            placeholder="First name">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="lastname-input">Last name:</label>
+                        <input type="text" class="form-control text-light bg-dark" id="lastname-input" name="lastName"
+                            placeholder="Last name">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="telephone">telephone:</label>
+                        <input type="text" class="form-control text-light bg-dark" id="telephone" name="telephone"
+                            placeholder="telephone">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="email">email:</label>
+                        <input type="email" class="form-control text-light bg-dark" id="email" name="email"
+                            placeholder="email">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="username">username:</label>
+                        <input type="text" class="form-control text-light bg-dark" id="username" name="username"
+                            placeholder="username">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="avatarUrl">avatarUrl:</label>
+                        <input type="text" class="form-control text-light bg-dark" id="avatarUrl" name="avatarUrl"
+                            placeholder="avatarUrl">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" required class="form-control text-light bg-dark" id="password"
+                            name="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="form-group">
+                        <label for="password">Confirmar Password:</label>
+                        <input type="password" class="form-control text-light bg-dark" id="password2" name="password2"
+                            placeholder="Confirmar Password">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md">
+                    <button type="submit" class="btn btn-info" onclick="$(event)">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

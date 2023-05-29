@@ -1,0 +1,101 @@
+.dark {
+    background-color: #0E2D3A;
+    color: #eeeeee;
+    margin: auto;
+    }
+button.atras, button.atras>a>img{
+    border: #0E2D3A;
+    background-color: #0E2D3A;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+body>img{
+    width: 100%;
+    position: absolute;
+    float: inline-start;
+    z-index: 2;
+    position: sticky; 
+    top: 0;
+}
+.photo-block {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
+div.photo-title {
+    font-size: 140%;
+    font-family: Arial;
+    text-decoration: underline;
+    }
+
+.photo-score {
+    font-family: 130%;
+    font-family: monospace;
+    }
+
+img.photo-image {
+    width: 95%;
+    height: auto;
+    }
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    }
+input , select {
+    background-color: #666666;
+    border-color: #999999;
+    color: white;
+    }
+
+.input-group > label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    }
+.input-group {
+    margin-bottom: 0.5em;
+    }
+
+div.title-block {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #333333;
+    }
+
+#title {
+    font-size: 300%;
+    text-decoration: none;
+    color: #BBBBBB;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    }
+
+#subtitle {
+    font-size: 120%;
+    font-style: italic;
+    color: #BBBBBB;
+    font-family: monospace;
+    }
+    
+div.navigation > a {
+    color: white;
+    font-size: 120%;
+    background-color: #555555;
+    font-family: monospace;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 150px;
+    }
+
+    img.photo-user-avatar {
+        max-width: 25px;
+        height: auto;
+        border-radius: 50%;
+        }
+        
+
